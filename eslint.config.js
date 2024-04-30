@@ -19,6 +19,11 @@ export default tseslint.config(
 		},
 	},
 	{
-		ignores: ['**/dist/**', '**/node_modules/**', '**/__snapshots__/**'],
+		ignores: [
+			'**/coverage/**',
+			'**/dist/**',
+			'**/node_modules/**',
+			'**/__snapshots__/**',
+		],
 	},
 );
