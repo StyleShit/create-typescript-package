@@ -20,6 +20,11 @@
 		},
 		"./package.json": "./package.json"
 	},
+	"files": [
+		"/dist",
+		"/src",
+		"!**/__tests__"
+	],
 	"scripts": {
 		"test": "vitest",
 		"test:coverage": "vitest run --coverage",
