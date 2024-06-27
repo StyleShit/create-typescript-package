@@ -35,7 +35,7 @@
 		"release": "npm run build && changeset publish"
 	},
 	"devDependencies": {
-		"@changesets/cli": "^2.27.5",
+		"@changesets/cli": "^2.27.6",
 		"@eslint/js": "^9.5.0",
 		"@vitest/coverage-v8": "^1.5.2",
 		"concurrently": "^8.2.2",
