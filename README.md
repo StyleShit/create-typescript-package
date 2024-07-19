@@ -10,26 +10,26 @@ A template project for creating TypeScript packages.
 
 3. Update the [release.yml](.github/workflows/release.yml) workflow to check for your username when publishing (this is used to prevent the workflow from running in forks):
 
-    ```yaml
-    if: startsWith(github.repository, '{your-username}/')
-    ```
+   ```yaml
+   if: startsWith(github.repository, '{your-username}/')
+   ```
 
 4. Configure `GITHUB_TOKEN` to have the permissions to create Pull Requests:
 
-    1. Go to https://github.com/{owner}/{repo}/settings/actions
-    2. Check "Allow GitHub Actions to create and approve pull requests" under "Workflow permissions"
+   1. Go to https://github.com/{owner}/{repo}/settings/actions
+   2. Check "Allow GitHub Actions to create and approve pull requests" under "Workflow permissions"
 
 5. Add `NPM_TOKEN` to your Repository secrets:
 
-    1. Go to NPM's [Access Tokens](https://www.npmjs.com/settings/styleshit/tokens) page
-    2. Click "Generate New Token" -> "Classic Token" and follow the instructions (make sure to choose "Automation" for the token type)
-    3. Go to https://github.com/{owner}/{repo}/settings/secrets/actions, and add the generated token as a secret named `NPM_TOKEN`
+   1. Go to NPM's [Access Tokens](https://www.npmjs.com/settings/styleshit/tokens) page
+   2. Click "Generate New Token" -> "Classic Token" and follow the instructions (make sure to choose "Automation" for the token type)
+   3. Go to https://github.com/{owner}/{repo}/settings/secrets/actions, and add the generated token as a secret named `NPM_TOKEN`
 
 ## Structure
 
--   `src/` - TypeScript source files.
--   `**/__tests__/` - Test files.
--   `dist/` - Compiled JavaScript files.
+- `src/` - TypeScript source files.
+- `**/__tests__/` - Test files.
+- `dist/` - Compiled JavaScript files.
 
 ## Tools
 
