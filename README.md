@@ -1,6 +1,6 @@
 # Create TypeScript Package
 
-A template project for creating TypeScript packages.
+A template project for developing & publishing TypeScript packages.
 
 ## Configuration
 
@@ -27,13 +27,17 @@ A template project for creating TypeScript packages.
 
 ## Structure
 
-- `src/` - TypeScript source files.
-- `**/__tests__/` - Test files.
-- `dist/` - Compiled JavaScript files.
+- `src/` - TypeScript source files
+- `**/__tests__/` - Test files
+- `dist/` - Compiled JavaScript files
 
 ## Tools
 
-This template uses [tsup](https://tsup.egoist.dev/) for transpiling & bundling, [Vitest](https://vitest.dev/) for testing, [ESlint](https://eslint.org/) & [TypeScript ESlint](https://typescript-eslint.io/) (with the strictest configuration) for linting, [Prettier](https://prettier.io/) for formatting, and [Changesets](https://github.com/changesets/changesets) for versioning & publishing.
+This template uses [tsup](https://tsup.egoist.dev/) for transpiling & bundling,
+[Vitest](https://vitest.dev/) for testing,
+[ESLint](https://eslint.org/) & [TypeScript ESLint](https://typescript-eslint.io/) (with the strictest configuration) for linting,
+[Prettier](https://prettier.io/) for formatting,
+and [Changesets](https://github.com/changesets/changesets) for versioning & publishing.
 
 ## Development Flow
 
