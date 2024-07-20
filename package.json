@@ -37,6 +37,7 @@
 	"devDependencies": {
 		"@changesets/cli": "^2.27.6",
 		"@eslint/js": "^9.6.0",
+		"@types/eslint__js": "^8.42.3",
 		"@vitest/coverage-v8": "^1.5.2",
 		"concurrently": "^8.2.2",
 		"eslint": "^8.57.0",
