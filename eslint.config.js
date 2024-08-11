@@ -16,16 +16,6 @@ export default tseslint.config(
         tsconfigRootDir: import.meta.dirname,
       },
     },
-    rules: {
-		"no-console":"off",
-      "no-restricted-syntax": [
-        "error",
-        {
-          "selector": "CallExpression[callee.object.name='console'][callee.property.name='log']",
-          "message": "Unexpected use of console.log."
-        }
-      ]
-    },
   },
   {
     ignores: [
@@ -34,5 +24,10 @@ export default tseslint.config(
       '**/node_modules/**',
       '**/__snapshots__/**',
     ],
+  },
+  {
+    rules:{
+      'no-console':['error':{allow:['warn']}]
+    }
   }
 );
