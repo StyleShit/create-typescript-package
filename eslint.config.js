@@ -24,5 +24,8 @@ export default tseslint.config(
 			'**/node_modules/**',
 			'**/__snapshots__/**',
 		],
+		rules: {
+			'no-console': 'error',
+		},
 	},
 );
