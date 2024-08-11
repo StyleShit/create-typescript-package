@@ -27,7 +27,7 @@ export default tseslint.config(
   },
   {
     rules:{
-      'no-console':['error':{allow:['warn']}]
+      'no-console':'error'
     }
   }
 );
